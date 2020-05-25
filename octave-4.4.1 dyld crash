@@ -1,0 +1,14 @@
+Am running mac os x10.11 have successfully been running octave 3.4.0.
+Tried upgrading to octave-4.4.1.  Computation with graphics ran successfully. Tried plot(x,y) which terminated with the following
+octave:3> plot(x,y);
+dyld: lazy symbol binding failed: Symbol not found: _mkostemp
+  Referenced from: /Applications/Octave-4.4.1.app/Contents/Resources/usr/opt/fontconfig/lib/libfontconfig.1.dylib (which was built for Mac OS X 10.12)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _mkostemp
+  Referenced from: /Applications/Octave-4.4.1.app/Contents/Resources/usr/opt/fontconfig/lib/libfontconfig.1.dylib (which was built for Mac OS X 10.12)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+fatal: caught signal Trace/BPT trap: 5 -- stopping myself...
+fatal: caught signal Segmentation fault: 11 -- stopping myself...
+Segmentation fault
